@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/peekaboo/goit/react/07-routing-nextjs/app/@modal/default.tsx"],"sourcesContent":["const Default = () => {\n  return null;\n};\n\nexport default Default;\n"],"names":["Default"],"mappings":";;;;AAAA,MAAMA,UAAU;IACd,OAAO;AACT;uCAEeA"}}]
+}

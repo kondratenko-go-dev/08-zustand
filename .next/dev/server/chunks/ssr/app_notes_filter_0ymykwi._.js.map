@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/notes/filter/FilterLayout.module.css [app-rsc] (css module)"],"sourcesContent":["__turbopack_context__.v({\n  \"container\": \"FilterLayout-module__9ISr6a__container\",\n  \"notesWrapper\": \"FilterLayout-module__9ISr6a__notesWrapper\",\n  \"sidebar\": \"FilterLayout-module__9ISr6a__sidebar\",\n});\n"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA"}},
+    {"offset": {"line": 12, "column": 0}, "map": {"version":3,"sources":["file:///home/peekaboo/goit/react/07-routing-nextjs/app/notes/filter/layout.tsx"],"sourcesContent":["import type { ReactNode } from 'react';\nimport css from './FilterLayout.module.css';\n\ninterface FilterLayoutProps {\n  children: ReactNode;\n  sidebar: ReactNode;\n}\n\nconst FilterLayout = ({ children, sidebar }: FilterLayoutProps) => {\n  return (\n    <section className={css.container}>\n      <aside className={css.sidebar}>{sidebar}</aside>\n\n      <div className={css.notesWrapper}>{children}</div>\n    </section>\n  );\n};\n\nexport default FilterLayout;\n"],"names":["FilterLayout","children","sidebar","className","container","notesWrapper"],"mappings":";;;;;AACA;;;AAOA,MAAMA,eAAe,CAAC,EAAEC,QAAQ,EAAEC,OAAO,EAAqB;IAC5D,qBACE,8OAAC;QAAQC,WAAW,6JAAG,CAACC,SAAS;;0BAC/B,8OAAC;gBAAMD,WAAW,6JAAG,CAACD,OAAO;0BAAGA;;;;;;0BAEhC,8OAAC;gBAAIC,WAAW,6JAAG,CAACE,YAAY;0BAAGJ;;;;;;;;;;;;AAGzC;uCAEeD"}}]
+}

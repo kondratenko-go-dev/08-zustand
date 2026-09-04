@@ -1,0 +1,22 @@
+/* [project]/app/notes/filter/FilterLayout.module.css [app-client] (css) */
+.FilterLayout-module__9ISr6a__container {
+  flex-direction: row;
+  flex: 1;
+  display: flex;
+}
+
+.FilterLayout-module__9ISr6a__sidebar {
+  color: #fff;
+  background-color: #2c2c2c;
+  border-right: 1px solid #ddd;
+  flex-direction: column;
+  width: 250px;
+  padding: 16px;
+  display: flex;
+}
+
+.FilterLayout-module__9ISr6a__notesWrapper {
+  width: 100%;
+}
+
+/*# sourceMappingURL=app_notes_filter_FilterLayout_module_1-nb2ej.css.map*/
