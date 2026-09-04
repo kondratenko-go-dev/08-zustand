@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import {
   dehydrate,
   HydrationBoundary,
@@ -13,6 +14,36 @@ interface NotesPageProps {
   params: Promise<{
     slug: string[];
   }>;
+}
+
+export async function generateMetadata({
+  params,
+}: NotesPageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const tag = slug[0] === 'all' ? undefined : slug[0];
+
+  const title = tag ? `Notes: ${tag} | NoteHub` : 'All notes | NoteHub';
+  const description = tag
+    ? `Browse notes filtered by the "${tag}" tag.`
+    : 'Browse all your notes in NoteHub.';
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url: `https://notehub.com/notes/filter/${slug.join('/')}`,
+      images: [
+        {
+          url: 'https://ac.goit.global/fullstack/react/notehub-og-meta.jpg',
+          width: 1200,
+          height: 630,
+          alt: 'NoteHub application preview',
+        },
+      ],
+    },
+  };
 }
 
 const Notes = async ({ params }: NotesPageProps) => {
