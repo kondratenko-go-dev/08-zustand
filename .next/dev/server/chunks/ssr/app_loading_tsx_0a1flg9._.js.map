@@ -2,5 +2,5 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/peekaboo/goit/react/07-routing-nextjs/app/loading.tsx"],"sourcesContent":["const Loading = () => { return <p>Loading, please wait...</p>; }; export default Loading;"],"names":["Loading"],"mappings":";;;;;;AAAA,MAAMA,UAAU;IAAQ,qBAAO,8OAAC;kBAAE;;;;;;AAA6B;uCAAkBA"}}]
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/peekaboo/goit/react/08-zustand/app/loading.tsx"],"sourcesContent":["const Loading = () => { return <p>Loading, please wait...</p>; }; export default Loading;"],"names":["Loading"],"mappings":";;;;;;AAAA,MAAMA,UAAU;IAAQ,qBAAO,8OAAC;kBAAE;;;;;;AAA6B;uCAAkBA"}}]
 }

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/peekaboo/goit/react/08-zustand/app/@modal/(.)notes/[id]/error.tsx"],"sourcesContent":["'use client';\n\ninterface NotePreviewErrorProps {\n  error: Error;\n}\n\nexport default function NotePreviewError({ error }: NotePreviewErrorProps) {\n  return <p>Could not fetch note details. {error.message}</p>;\n}\n"],"names":["c","_c","NotePreviewErrorProps","error","Error","NotePreviewError","t0","$","$i","Symbol","for","t1","message"],"mappings":";;;;;AAAa,SAAAA,CAAA,IAAAC,EAAA;AAAb,YAAY;;;AAMG,0BAAAK,EAAA;IAAA,MAAAC,CAAA,OAAAN,gLAAA,EAAA;IAAA,IAAAM,CAAA,CAAA,EAAA,KAAA,oEAAA;QAAA,IAAA,IAAAC,EAAA,GAAA,GAAAA,EAAA,GAAA,GAAAA,EAAA,IAAA,EAAA;YAAAD,CAAA,CAAAC,EAAA,CAAA,GAAAC,MAAA,CAAAC,GAAA,CAAA;QAAA;QAAAH,CAAA,CAAA,EAAA,GAAA;IAAA;IAA0B,MAAA,EAAAJ,KAAAA,EAAA,GAAAG,EAAgC;IAAA,IAAAK,EAAA;IAAA,IAAAJ,CAAA,CAAA,EAAA,KAAAJ,KAAA,CAAAS,OAAA,EAAA;QAChED,EAAA,iBAAA,6LAAA,CAAoD;;gBAAjD,8BAA+B;gBAAAR,KAAK,CAAAS,OAAO,CAAE,EAAhD,CAAoD;;;;;;;QAAAL,CAAA,CAAA,EAAA,GAAAJ,KAAA,CAAAS,OAAA;QAAAL,CAAA,CAAA,EAAA,GAAAI,EAAA;IAAA,OAAA;QAAAA,EAAA,GAAAJ,CAAA,CAAA,EAAA;IAAA;IAAA,OAApDI,EAAoD;AAAA;KAD9CN","ignoreList":[]}}]
+}

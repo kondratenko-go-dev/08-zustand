@@ -2,5 +2,5 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/peekaboo/goit/react/07-routing-nextjs/app/notes/filter/[...slug]/error.tsx"],"sourcesContent":["'use client';\ninterface NotesErrorProps {\n  error: Error;\n}\nconst NotesError = ({ error }: NotesErrorProps) => {\n  return <p> Could not fetch the list of notes. {error.message} </p>;\n};\nexport default NotesError;\n"],"names":["NotesError","error","message"],"mappings":";;;;;AAAA;;AAIA,MAAMA,aAAa,CAAC,EAAEC,KAAK,EAAmB;IAC5C,qBAAO,8OAAC;;YAAE;YAAqCA,MAAMC,OAAO;YAAC;;;;;;;AAC/D;uCACeF"}}]
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/peekaboo/goit/react/08-zustand/app/notes/filter/[...slug]/error.tsx"],"sourcesContent":["'use client';\ninterface NotesErrorProps {\n  error: Error;\n}\nconst NotesError = ({ error }: NotesErrorProps) => {\n  return <p> Could not fetch the list of notes. {error.message} </p>;\n};\nexport default NotesError;\n"],"names":["NotesError","error","message"],"mappings":";;;;;AAAA;;AAIA,MAAMA,aAAa,CAAC,EAAEC,KAAK,EAAmB;IAC5C,qBAAO,8OAAC;;YAAE;YAAqCA,MAAMC,OAAO;YAAC;;;;;;;AAC/D;uCACeF"}}]
 }

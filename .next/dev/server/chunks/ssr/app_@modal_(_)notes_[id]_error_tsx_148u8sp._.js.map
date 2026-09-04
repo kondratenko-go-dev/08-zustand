@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/peekaboo/goit/react/08-zustand/app/@modal/(.)notes/[id]/error.tsx"],"sourcesContent":["'use client';\n\ninterface NotePreviewErrorProps {\n  error: Error;\n}\n\nexport default function NotePreviewError({ error }: NotePreviewErrorProps) {\n  return <p>Could not fetch note details. {error.message}</p>;\n}\n"],"names":["NotePreviewError","error","message"],"mappings":";;;;;AAAA;;AAMe,SAASA,iBAAiB,EAAEC,KAAK,EAAyB;IACvE,qBAAO,8OAAC;;YAAE;YAA+BA,MAAMC,OAAO;;;;;;;AACxD"}}]
+}
